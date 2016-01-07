@@ -1,12 +1,13 @@
 <?php
 $coffee = new coffee();
-if(empty($coffe))
+if(empty($coffee))
 {
-	$coffe->refill();
+	$coffee->refill();
 }
 else
 {
-	$coffe->drink();
+	$coffee->drink();
 }
 
 ?>
+// just correcting
